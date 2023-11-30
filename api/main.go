@@ -1,7 +1,7 @@
 package main
 
 import (
-	"api/src/router"
+	router "api/src/Router"
 	"fmt"
 	"log"
 	"net/http"

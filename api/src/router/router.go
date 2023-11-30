@@ -1,7 +1,7 @@
-package router
+package Router
 
 import (
-	"api/src/router/routes"
+	Routes "api/src/router/routes"
 
 	"github.com/gorilla/mux"
 )
@@ -9,5 +9,5 @@ import (
 // retorna router com rotas configuradas
 func Gerar() *mux.Router {
 	r := mux.NewRouter()
-	return routes.Config(r)
+	return Routes.Config(r)
 }

@@ -1,4 +1,4 @@
-package routes
+package Routes
 
 import (
 	controller "api/src/Controller"
@@ -9,31 +9,31 @@ var routeUser = []Rout{
 	{
 		Uri:                   "/user",
 		Method:                http.MethodPost,
-		Function:              controller.CreateUser, // Remova os parênteses
+		Function:              controller.CreateUser,
 		RequireAuthentication: false,
 	},
 	{
 		Uri:                   "/user",
 		Method:                http.MethodGet,
-		Function:              controller.GetUsers, // Remova os parênteses
+		Function:              controller.GetUsers,
 		RequireAuthentication: false,
 	},
 	{
 		Uri:                   "/user/{id}",
 		Method:                http.MethodGet,
-		Function:              controller.GetUser, // Remova os parênteses
+		Function:              controller.GetUser,
 		RequireAuthentication: false,
 	},
 	{
 		Uri:                   "/user/{id}",
 		Method:                http.MethodPut,
-		Function:              controller.UpdateUser, // Remova os parênteses
+		Function:              controller.UpdateUser,
 		RequireAuthentication: false,
 	},
 	{
 		Uri:                   "/user/{id}",
 		Method:                http.MethodDelete,
-		Function:              controller.DeleteUser, // Remova os parênteses
+		Function:              controller.DeleteUser,
 		RequireAuthentication: false,
 	},
 }
