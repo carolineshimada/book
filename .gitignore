@@ -1,0 +1,6 @@
+# Arquivos e pastas específicos do Go
+*.log
+bin/
+vendor/
+.env
+.DS_Store
