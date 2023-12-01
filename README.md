@@ -4,9 +4,9 @@
 
 Este projeto é uma API que oferece funcionalidades relacionadas a livros.
 
-### Pacotes Principais
-
 A estrutura da API é dividida nos seguintes pacotes:
+
+### Pacotes Principais
 
 - **Main**: Este pacote contém a configuração principal da aplicação.
 - **Router**: Responsável por lidar com as rotas da API e direcionar as solicitações para os controladores apropriados.
